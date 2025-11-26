@@ -1,0 +1,721 @@
+{
+  "correct_messages": [
+    "Doğru cevap! Güzel ilerliyorsun.",
+    "Temiz iş homie, devam!",
+    "Harika seçim, akıyorsun!",
+    "Doğru! Bilgi akıyor.",
+    "Aynen böyle, ritmi bozma."
+  ],
+  "wrong_messages": [
+    "Bu olmadı homie, sıradaki soruya geç.",
+    "Yanlış ama sorun değil, öğreniyoruz.",
+    "Iska geçti, devam.",
+    "Olmadı… ama pes etmek yok.",
+    "Yakındı, sonraki soruyu alırsın."
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "question": "Fırat Nehri’nin Türkiye içerisindeki akım rejimini belirleyen temel faktör aşağıdakilerden hangisidir?",
+      "choices": ["Kıyı kuşağındaki düzenli yağış", "İlkbaharda artan kar erimeleri", "Tuzlu göller", "Yaz buharlaşması", "Karstik kaynaklar"],
+      "correct": "İlkbaharda artan kar erimeleri",
+      "explanation": "Fırat’ın akım artışı Doğu Anadolu'daki kar erimeleriyle ilişkilidir."
+    },
+    {
+      "id": 2,
+      "question": "Dicle Nehri’nin debisindeki değişim, Türkiye’nin hangi iklimsel özelliğiyle daha yakından ilişkilidir?",
+      "choices": ["Yoğun kış donları", "İlkbaharda hızlı ısınma", "Yüksek yaz yağışları", "Dengeli yağış rejimi", "Sisli sonbahar"],
+      "correct": "İlkbaharda hızlı ısınma",
+      "explanation": "Hızlı sıcaklık artışı kar erimelerini hızlandırır ve debiyi yükseltir."
+    },
+    {
+      "id": 3,
+      "question": "Aşağıdaki akarsulardan hangisi Türkiye’den dışarı akan akarsular arasındadır?",
+      "choices": ["Kızılırmak", "Gediz", "Çoruh", "Sakarya", "Susurluk"],
+      "correct": "Çoruh",
+      "explanation": "Çoruh Türkiye’den çıkarak Gürcistan’a akar."
+    },
+    {
+      "id": 4,
+      "question": "Aşağıdakilerden hangisi Türkiye’ye dıştan giriş yapan bir akarsudur?",
+      "choices": ["Porsuk", "Asi", "Zamantı", "Peri", "Gökırmak"],
+      "correct": "Asi",
+      "explanation": "Asi Lübnan’dan kaynağını alır, Suriye’den geçip Türkiye’ye girer."
+    },
+    {
+      "id": 5,
+      "question": "Aşağıdaki akarsulardan hangisi Türkiye–Ermenistan sınırını oluşturan bir akarsudur?",
+      "choices": ["Afrin", "Arpaçay", "Zamantı", "Söğütlü", "Akçay"],
+      "correct": "Arpaçay",
+      "explanation": "Arpaçay Türkiye ile Ermenistan arasında doğal sınırdır."
+    },
+    {
+      "id": 6,
+      "question": "Aşağıdaki akarsulardan hangisi akış yönü bakımından anomalik bir durum sergiler?",
+      "choices": ["Asi", "Göksu", "Kızılırmak", "Kelkit", "Büyük Menderes"],
+      "correct": "Asi",
+      "explanation": "Asi güneyden kuzeye doğru akar, yönü anomaliktir."
+    },
+    {
+      "id": 7,
+      "question": "Aşağıdaki akarsulardan hangisi sınır oluşturan akarsular arasında yer almaz?",
+      "choices": ["Meriç", "Arpaçay", "Asi", "Çoruh", "Kura"],
+      "correct": "Çoruh",
+      "explanation": "Çoruh sınır oluşturmaz, Türkiye’den Gürcistan’a akar."
+    },
+    {
+      "id": 8,
+      "question": "Fırat’ın ana kollarından biri aşağıdakilerden hangisidir?",
+      "choices": ["Devrez", "Murat", "Ergene", "Kelkit", "Porsuk"],
+      "correct": "Murat",
+      "explanation": "Fırat’ın iki ana kolu Murat ve Karasu’dur."
+    },
+    {
+      "id": 9,
+      "question": "Dicle Nehri’nin Türkiye’deki önemli kollarından biri aşağıdakilerden hangisidir?",
+      "choices": ["Zamantı", "Batman Çayı", "Aras", "Akçay", "Delice"],
+      "correct": "Batman Çayı",
+      "explanation": "Batman Çayı Dicle’nin en önemli kollarındandır."
+    },
+    {
+      "id": 10,
+      "question": "Kızılırmak havzasında akımı destekleyen başlıca kol aşağıdakilerden hangisidir?",
+      "choices": ["Ergene", "Söğütlü", "Delice", "Manavgat", "Tarsus"],
+      "correct": "Delice",
+      "explanation": "Kızılırmak’ın en güçlü kollarından biri Delice’dir."
+    },
+    {
+      "id": 11,
+      "question": "Yeşilırmak havzasının gelişiminde belirleyici olan kol aşağıdakilerden hangisidir?",
+      "choices": ["Gökırmak", "Kelkit", "Ankara Çayı", "Peri", "Zamantı"],
+      "correct": "Kelkit",
+      "explanation": "Kelkit Çayı Yeşilırmak havzasında belirgin rol oynar."
+    },
+    {
+      "id": 12,
+      "question": "Sakarya Nehri’nin önemli yan kollarından biri aşağıdakilerden hangisidir?",
+      "choices": ["Ankara Çayı", "Afrin", "Köprü Çayı", "Delice", "Bozçay"],
+      "correct": "Ankara Çayı",
+      "explanation": "Sakarya’nın en bilinen kolu Ankara Çayı’dır."
+    },
+    {
+      "id": 13,
+      "question": "Aşağıdaki akarsulardan hangisi Marmara Denizi havzasına su taşır?",
+      "choices": ["Ergene", "Asi", "Kelkit", "Göksu", "Manavgat"],
+      "correct": "Ergene",
+      "explanation": "Ergene–Meriç sistemi Marmara havzasıyla bağlantılıdır."
+    },
+    {
+      "id": 14,
+      "question": "Aşağıdaki havzalardan hangisi kapalı havza özelliği gösterir?",
+      "choices": ["Susurluk", "Gediz", "Akşehir", "Manavgat", "Asi"],
+      "correct": "Akşehir",
+      "explanation": "Akşehir Gölü kapalı havza sisteminin parçasıdır."
+    },
+    {
+      "id": 15,
+      "question": "Karadeniz akarsu rejiminin karakteristik özelliği aşağıdakilerden hangisidir?",
+      "choices": ["Kış maksimumu", "Yaz kuruması", "Sonbahar maksimumu", "Belirgin düzensizlik", "Kar erimelerine tam bağımlılık"],
+      "correct": "Sonbahar maksimumu",
+      "explanation": "Karadeniz kıyı akarsularında en yüksek akım sonbahardadır."
+    },
+    {
+      "id": 16,
+      "question": "Akdeniz rejimli akarsuların kışın yükselen debisi hangi durumla ilgilidir?",
+      "choices": ["Yaz yağışları", "Taban suyu artışı", "Kışın yağışlı ve ılık iklim", "Don olayları", "Sıcaklık düşüşü"],
+      "correct": "Kışın yağışlı ve ılık iklim",
+      "explanation": "Akdeniz'de kış yağışları debi artışına neden olur."
+    },
+    {
+      "id": 17,
+      "question": "Aşağıdakilerden hangisi Akdeniz’e dökülen akarsular arasında yer alır?",
+      "choices": ["Köprü Çayı", "Karasu", "Porsuk", "Kelkit", "Akçay"],
+      "correct": "Köprü Çayı",
+      "explanation": "Köprü Çayı Antalya çevresinde Akdeniz’e dökülür."
+    },
+    {
+      "id": 18,
+      "question": "Aşağıdaki akarsulardan hangisi Ege Denizi’ne dökülür?",
+      "choices": ["Gediz", "Asi", "Zamantı", "Göksu", "Batman"],
+      "correct": "Gediz",
+      "explanation": "Gediz Nehri Ege kıyısında delta oluşturur."
+    },
+    {
+      "id": 19,
+      "question": "Çoruh Nehri’nin yüksek sediment taşımasının temel nedeni nedir?",
+      "choices": ["Karstik kaynak", "Yüksek yatak eğimi", "Yağmur beslenmesi", "Delta oluşturmaması", "Kısa akarsu boyu"],
+      "correct": "Yüksek yatak eğimi",
+      "explanation": "Çoruh Türkiye’nin en hızlı akan akarsularındandır."
+    },
+    {
+      "id": 20,
+      "question": "Aşağıdaki akarsulardan hangisi kar erimelerine bağlı olarak belirgin debi artışı gösterir?",
+      "choices": ["Manavgat", "Seyhan", "Aras", "Susurluk", "Büyük Menderes"],
+      "correct": "Aras",
+      "explanation": "Aras Nehri Doğu Anadolu’daki kar erimelerine duyarlıdır."
+    },
+    {
+      "id": 21,
+      "question": "Aşağıdaki akarsulardan hangisi Suriye sınırı boyunca kesintili temas eder?",
+      "choices": ["Asi", "Devrez", "Göksu", "Ergene", "Kura"],
+      "correct": "Asi",
+      "explanation": "Asi, Türkiye–Suriye sınırında belirli kesimlerle temas eder."
+    },
+    {
+      "id": 22,
+      "question": "Aşağıdaki akarsulardan hangisi Meriç Nehri’nin önemli kollarındandır?",
+      "choices": ["Ergene", "Porsuk", "Peri", "Batman", "Aksu"],
+      "correct": "Ergene",
+      "explanation": "Ergene, Meriç’in en bilinen koludur."
+    },
+    {
+      "id": 23,
+      "question": "Aşağıdakilerden hangisi debiyi azaltan faktörlerden biridir?",
+      "choices": ["Düşük buharlaşma", "Yoğun bitki örtüsü", "Kış yağışlarının artması", "Yüksek sızma kapasitesi", "Taban suyu artışı"],
+      "correct": "Yüksek sızma kapasitesi",
+      "explanation": "Sızma arttıkça yüzey akışı ve debi azalır."
+    },
+    {
+      "id": 24,
+      "question": "Aşağıdaki akarsulardan hangisi Seyhan Nehri’nin kollarındandır?",
+      "choices": ["Zamantı", "Kelkit", "Delice", "Arpaçay", "Karasu"],
+      "correct": "Zamantı",
+      "explanation": "Zamantı, Seyhan’ın en büyük kollarındandır."
+    },
+    {
+      "id": 25,
+      "question": "Aşağıdakilerden hangisi Ceyhan Nehri’nin beslenme kollarından biridir?",
+      "choices": ["Söğütlü", "Peri", "Gökırmak", "Ankara Çayı", "Afrin"],
+      "correct": "Söğütlü",
+      "explanation": "Söğütlü Deresi Ceyhan havzasında bulunur."
+    },
+
+    {
+      "id": 26,
+      "question": "Aşağıdaki akarsulardan hangisi Türkiye’nin Karadeniz’e dökülen akarsu sistemlerinden biridir?",
+      "choices": ["Manavgat", "Bartın Çayı", "Göksu", "Asi", "Tarsus"],
+      "correct": "Bartın Çayı",
+      "explanation": "Bartın Çayı Karadeniz'e ulaşan kısa akarsulardandır."
+    },
+    {
+      "id": 27,
+      "question": "Doğu Anadolu’da ilkbaharda ani debi yükselişlerinin temel nedeni aşağıdakilerden hangisidir?",
+      "choices": ["Yaz yağışı artışı", "Kar erimelerinin hızlanması", "Kıyı rüzgarları", "Göl taşmaları", "Yer altı suyu düşmesi"],
+      "correct": "Kar erimelerinin hızlanması",
+      "explanation": "Doğu Anadolu’da kar örtüsünün erimesi ani debi artışı yapar."
+    },
+    {
+      "id": 28,
+      "question": "Aşağıdakilerden hangisi Karadeniz kıyı akarsularının düzenli rejim göstermesine katkı sağlar?",
+      "choices": ["Yaz kuraklığı", "Yağışın yıl içine dengeli dağılması", "Yüksek sızma", "Don olaylarının yoğunluğu", "Kış yağışlarının zayıf olması"],
+      "correct": "Yağışın yıl içine dengeli dağılması",
+      "explanation": "Karadeniz kıyılarında yağış yıl boyunca süreklidir."
+    },
+    {
+      "id": 29,
+      "question": "Aşağıdakilerden hangisi Akdeniz’e dökülen akarsular arasında yer alır?",
+      "choices": ["Aksu", "Ergene", "Kelkit", "Devrez", "Karasu"],
+      "correct": "Aksu",
+      "explanation": "Aksu Antalya’da Akdeniz’e ulaşır."
+    },
+    {
+      "id": 30,
+      "question": "Aşağıdakilerden hangisi Büyük Menderes havzasının önemli yan kollarından biridir?",
+      "choices": ["Simav Çayı", "Kelkit", "Aras", "Afrin", "Batman"],
+      "correct": "Simav Çayı",
+      "explanation": "Simav Çayı Büyük Menderes havzasında önemli bir koldur."
+    },
+    {
+      "id": 31,
+      "question": "Aşağıdaki akarsulardan hangisi Ege Denizi’ne dökülen akarsular arasında yer almaz?",
+      "choices": ["Gediz", "Küçük Menderes", "Büyük Menderes", "Arpaçay", "Bakırçay"],
+      "correct": "Arpaçay",
+      "explanation": "Arpaçay Ege’ye değil Aras havzasına bağlıdır."
+    },
+    {
+      "id": 32,
+      "question": "Aşağıdaki akarsulardan hangisi kapalı havza yapısının görüldüğü alanlarda bulunur?",
+      "choices": ["Akşehir", "Susurluk", "Porsuk", "Göksu", "Sakarya"],
+      "correct": "Akşehir",
+      "explanation": "Akşehir Gölü kapalı havza alanındadır."
+    },
+    {
+      "id": 33,
+      "question": "Aşağıdaki akarsulardan hangisi Toros Dağları’nın güney yamaçlarından doğarak Akdeniz’e ulaşır?",
+      "choices": ["Manavgat", "Ergene", "Kızılırmak", "Delice", "Bartın Çayı"],
+      "correct": "Manavgat",
+      "explanation": "Manavgat Çayı Toroslar’ın güneyinden doğar."
+    },
+    {
+      "id": 34,
+      "question": "Aşağıdakilerden hangisi Ceyhan Nehri’nin kolları arasında yer almaz?",
+      "choices": ["Söğütlü", "Zamantı", "Aksu", "Hurma", "Tufanbeyli çayları"],
+      "correct": "Aksu",
+      "explanation": "Aksu Nehri Antalya’dadır ve Ceyhan’ın kolu değildir."
+    },
+    {
+      "id": 35,
+      "question": "Aşağıdaki akarsuların hangisi Fırat Havzası dışında kalır?",
+      "choices": ["Murat", "Karasu (Erzurum)", "Peri", "Zapsu", "Kelkit"],
+      "correct": "Kelkit",
+      "explanation": "Kelkit Yeşilırmak havzasının koludur."
+    },
+    {
+      "id": 36,
+      "question": "Aşağıdaki akarsulardan hangisi Seyhan Nehri’nin beslenme alanında değildir?",
+      "choices": ["Çakıt Çayı", "Zamantı", "Göksu (Silifke)", "Körkün", "Tufanbeyli çayları"],
+      "correct": "Göksu (Silifke)",
+      "explanation": "Göksu Silifke’den Akdeniz’e dökülür, Seyhan ile ilişkili değildir."
+    },
+    {
+      "id": 37,
+      "question": "Türkiye’de akarsu rejiminin en düzenli olduğu bölge aşağıdakilerden hangisidir?",
+      "choices": ["Doğu Anadolu", "Akdeniz", "İç Anadolu", "Karadeniz kıyıları", "Güneydoğu Anadolu"],
+      "correct": "Karadeniz kıyıları",
+      "explanation": "Karadeniz kıyıları yıl boyunca düzenli yağış aldığı için rejim düzgündür."
+    },
+    {
+      "id": 38,
+      "question": "Aşağıdaki akarsulardan hangisi kaynağından denize kadar Türkiye sınırları içinde kalan bir akarsudur?",
+      "choices": ["Kızılırmak", "Asi", "Çoruh", "Dicle", "Kura"],
+      "correct": "Kızılırmak",
+      "explanation": "Kızılırmak Türkiye içinde doğar, Türkiye içinde denize ulaşır."
+    },
+    {
+      "id": 39,
+      "question": "Aşağıdakilerden hangisi debiyi artıran faktörlerdendir?",
+      "choices": ["Artan buharlaşma", "Yüksek sızma", "Yoğun bitki örtüsü", "Yağışın artması", "Kireçtaşı alanları"],
+      "correct": "Yağışın artması",
+      "explanation": "Yağış arttıkça yüzey akışı artar ve debi yükselir."
+    },
+    {
+      "id": 40,
+      "question": "Aşağıdakilerden hangisi kapalı havza özelliği göstermez?",
+      "choices": ["Van Gölü", "Tuz Gölü", "Akşehir", "Aras–Kura havzası", "Burdur"],
+      "correct": "Aras–Kura havzası",
+      "explanation": "Aras–Kura sistemi Hazar’a bağlı açık havzadır."
+    },
+    {
+      "id": 41,
+      "question": "Aşağıdaki akarsulardan hangisi Doğu Akdeniz kıyılarında denize dökülür?",
+      "choices": ["Asi", "Gediz", "Çoruh", "Manavgat", "Sakarya"],
+      "correct": "Asi",
+      "explanation": "Asi Nehri Hatay’da Akdeniz’e dökülür."
+    },
+    {
+      "id": 42,
+      "question": "Aşağıdakilerden hangisi Doğu Anadolu’da akarsu aşındırmasının yüksek olmasının nedenidir?",
+      "choices": ["Düşük eğim", "Kurak iklim", "Yüksek dağlık alanlar", "Geniş deltalar", "Sığ göller"],
+      "correct": "Yüksek dağlık alanlar",
+      "explanation": "Doğu Anadolu’da eğim fazla olduğu için aşındırma yüksektir."
+    },
+    {
+      "id": 43,
+      "question": "Aşağıdaki akarsulardan hangisi Güneydoğu Anadolu’da Dicle havzasına bağlıdır?",
+      "choices": ["Batman Çayı", "Devrez", "Porsuk", "Kelkit", "Simav"],
+      "correct": "Batman Çayı",
+      "explanation": "Batman Çayı Dicle’nin önemli kollarındandır."
+    },
+    {
+      "id": 44,
+      "question": "Aşağıdaki akarsulardan hangisi Suriye sınırına paralel akış gösterir?",
+      "choices": ["Afrin", "Akçay", "Delice", "Zamantı", "Söğütlü"],
+      "correct": "Afrin",
+      "explanation": "Afrin Çayı Suriye sınırına yakın paralel akış gösterir."
+    },
+    {
+      "id": 45,
+      "question": "Aşağıdaki akarsulardan hangisi kar erimelerine bağlı taşkın riski taşıyan akarsular arasındadır?",
+      "choices": ["Aksu", "Aras", "Susurluk", "Gediz", "Büyük Menderes"],
+      "correct": "Aras",
+      "explanation": "Aras Nehri kar erimesinden en çok etkilenen akarsulardandır."
+    },
+    {
+      "id": 46,
+      "question": "Aşağıdaki akarsulardan hangisi Karadeniz’e dökülen en uzun akarsular arasında yer almaz?",
+      "choices": ["Yeşilırmak", "Kızılırmak", "Sakarya", "Bartın Çayı", "Filyos"],
+      "correct": "Bartın Çayı",
+      "explanation": "Bartın Çayı kısa boylu bir akarsudur."
+    },
+    {
+      "id": 47,
+      "question": "Ege akarsularında yaz kuraklığına bağlı akım azalması hangi faktörle daha da belirginleşir?",
+      "choices": ["Yüksek sızma", "Uzun süren kar erimesi", "Don olayları", "Yoğun bitki örtüsü", "Yaz yağışı"],
+      "correct": "Yüksek sızma",
+      "explanation": "Sızma miktarı arttıkça yüzey akışı azalır."
+    },
+    {
+      "id": 48,
+      "question": "Aşağıdakilerden hangisi Akdeniz rejimli bir akarsudur?",
+      "choices": ["Manavgat", "Kelkit", "Delice", "Gökırmak", "Ergene"],
+      "correct": "Manavgat",
+      "explanation": "Manavgat tipik Akdeniz rejimi gösterir."
+    },
+    {
+      "id": 49,
+      "question": "Aşağıdaki akarsulardan hangisi Türkiye’nin en uzun tamamen ulusal akarsularındandır?",
+      "choices": ["Kızılırmak", "Asi", "Aras", "Çoruh", "Fırat"],
+      "correct": "Kızılırmak",
+      "explanation": "Kızılırmak Türkiye sınırları içindeki en uzun akarsudur."
+    },
+    {
+      "id": 50,
+      "question": "Aşağıdaki akarsulardan hangisi Hazar Havzası’na bağlanan drenajın parçasıdır?",
+      "choices": ["Aras", "Gediz", "Porsuk", "Manavgat", "Susurluk"],
+      "correct": "Aras",
+      "explanation": "Aras Nehri Hazar Denizi havzasına su taşır."
+    },
+
+        {
+      "id": 51,
+      "question": "Aşağıdaki akarsulardan hangisi Türkiye’nin kuzeydoğusunda Gürcistan sınırına ulaşır?",
+      "choices": ["Çoruh", "Sakarya", "Gediz", "Asi", "Kızılırmak"],
+      "correct": "Çoruh",
+      "explanation": "Çoruh Nehri Türkiye’den çıkarak Gürcistan'a girer."
+    },
+    {
+      "id": 52,
+      "question": "Aşağıdakilerden hangisi Ergene Havzası’nın drenaj sistemini besler?",
+      "choices": ["Meriç", "Göksu", "Kelkit", "Aksu", "Zamantı"],
+      "correct": "Meriç",
+      "explanation": "Meriç Nehri Ergene havzasının ana drenaj sistemidir."
+    },
+    {
+      "id": 53,
+      "question": "Aşağıdaki akarsulardan hangisi Türkiye–Suriye sınırı boyunca kesintili şekilde temas eden bir akarsu sisteminin parçasıdır?",
+      "choices": ["Asi", "Devrez", "Peri", "Akçay", "Bartın"],
+      "correct": "Asi",
+      "explanation": "Asi Nehri sınıra yakın kesimlerde temas eden akarsulardan biridir."
+    },
+    {
+      "id": 54,
+      "question": "Türkiye’de ilkbahar taşkınlarının en yoğun görüldüğü bölge aşağıdakilerden hangisidir?",
+      "choices": ["Batı Anadolu", "Doğu Anadolu", "Güney Marmara", "Ege kıyıları", "Trakya"],
+      "correct": "Doğu Anadolu",
+      "explanation": "Kar erimelerinin yoğun olduğu Doğu Anadolu taşkınların merkezidir."
+    },
+    {
+      "id": 55,
+      "question": "Aşağıdaki akarsulardan hangisinin akım rejimi kar erimelerine en bağımlıdır?",
+      "choices": ["Aras", "Manavgat", "Bartın Çayı", "Gediz", "Ergene"],
+      "correct": "Aras",
+      "explanation": "Aras'ın akımında kar erimeleri belirleyici rol oynar."
+    },
+    {
+      "id": 56,
+      "question": "Aşağıdaki akarsulardan hangisi Toroslar’ın kuzey yamaçlarından beslenerek Akdeniz’e ulaşır?",
+      "choices": ["Göksu (Silifke)", "Kelkit", "Ergene", "Devrez", "Delice"],
+      "correct": "Göksu (Silifke)",
+      "explanation": "Göksu Çayı Toroslar'ın kuzeyinden beslenerek Silifke’de denize dökülür."
+    },
+    {
+      "id": 57,
+      "question": "Aşağıdaki akarsulardan hangisi Ege Bölgesi’nde delta oluşturan akarsular arasında yer almaz?",
+      "choices": ["Gediz", "Küçük Menderes", "Büyük Menderes", "Kızılırmak", "Bakırçay"],
+      "correct": "Kızılırmak",
+      "explanation": "Kızılırmak Karadeniz’e dökülür; Ege’de delta oluşturmaz."
+    },
+    {
+      "id": 58,
+      "question": "Aşağıdaki akarsulardan hangisi Asi havzasının Türkiye sınırları içindeki yan kollarındandır?",
+      "choices": ["Afrin", "Simav", "Delice", "Söğütlü", "Arpaçay"],
+      "correct": "Afrin",
+      "explanation": "Afrin Çayı Asi havzasının Türkiye tarafındaki önemli koludur."
+    },
+    {
+      "id": 59,
+      "question": "Aşağıdaki akarsulardan hangisi Sakarya Nehri’nin yukarı havza bölümünde bulunur?",
+      "choices": ["Porsuk", "Aksu", "Kelkit", "Çoruh", "Aras"],
+      "correct": "Porsuk",
+      "explanation": "Porsuk Çayı Sakarya Nehri’nin yukarı havza kollarındandır."
+    },
+    {
+      "id": 60,
+      "question": "Aşağıdakilerden hangisi debiyi azaltan iklimsel bir faktördür?",
+      "choices": ["Yüksek buharlaşma", "Kış yağışlarının artması", "İlkbahar kar erimesi", "Yoğun bitki örtüsü", "Düşük sızma"],
+      "correct": "Yüksek buharlaşma",
+      "explanation": "Buharlaşmanın arttığı bölgelerde debi azalır."
+    },
+    {
+      "id": 61,
+      "question": "Aşağıdakilerden hangisi Doğu Karadeniz akarsularının karakteristik bir özelliğidir?",
+      "choices": ["Yazın kuruma", "Sonbaharda maksimum akım", "Düşük eğim", "Fazla tortu taşıma", "Geniş tabanlı vadiler"],
+      "correct": "Sonbaharda maksimum akım",
+      "explanation": "Doğu Karadeniz akarsularında yağışın yoğunlaştığı sonbaharda akım artar."
+    },
+    {
+      "id": 62,
+      "question": "Aşağıdaki akarsulardan hangisi Türkiye’deki göller yöresi kapalı havzasında değildir?",
+      "choices": ["Burdur", "Eğirdir", "Akşehir", "Van Gölü", "Salda"],
+      "correct": "Van Gölü",
+      "explanation": "Van Gölü Doğu Anadolu’da ayrı bir kapalı sistemdir, göller yöresine dahil değildir."
+    },
+    {
+      "id": 63,
+      "question": "Akdeniz Bölgesi akarsularında yaz aylarında debinin düşmesinin temel nedeni aşağıdakilerden hangisidir?",
+      "choices": ["Don olaylarının artması", "Yazın kurak koşullar", "Kar erimelerinin yavaşlaması", "Yatak eğiminin düşmesi", "Bitki örtüsünün zayıflaması"],
+      "correct": "Yazın kurak koşullar",
+      "explanation": "Akdeniz ikliminde yaz kuraklığı belirgin olduğu için debi düşer."
+    },
+    {
+      "id": 64,
+      "question": "Aşağıdaki akarsulardan hangisi Fırat’ın Türkiye sınırları içindeki kollarından biri değildir?",
+      "choices": ["Batman Çayı", "Peri Suyu", "Karasu (Erzurum)", "Murat", "Kelkit"],
+      "correct": "Kelkit",
+      "explanation": "Kelkit Yeşilırmak havzasında yer alır."
+    },
+    {
+      "id": 65,
+      "question": "Aşağıdaki akarsulardan hangisi Ceyhan Nehri Havzası dışındadır?",
+      "choices": ["Söğütlü", "Körkün", "Zamantı", "Porsuk", "Binboğa kaynakları"],
+      "correct": "Porsuk",
+      "explanation": "Porsuk Sakarya Nehri sistemine bağlıdır."
+    },
+    {
+      "id": 66,
+      "question": "Aşağıdaki akarsuların hangisi Marmara Denizi’ne dökülen akarsular arasında yer alır?",
+      "choices": ["Susurluk", "Büyük Menderes", "Asi", "Çoruh", "Göksu"],
+      "correct": "Susurluk",
+      "explanation": "Susurluk Çayı Marmara’ya dökülür."
+    },
+    {
+      "id": 67,
+      "question": "Aşağıdaki akarsulardan hangisi Türkiye’nin Ege Bölgesi’nde en uzun akarsular arasında yer alır?",
+      "choices": ["Gediz", "Peri", "Kelkit", "Aras", "Sakarya"],
+      "correct": "Gediz",
+      "explanation": "Ege Bölgesi'nin en uzun akarsularından biridir."
+    },
+    {
+      "id": 68,
+      "question": "Aşağıdakilerden hangisi Karadeniz kıyı akarsularının hidrolojik özelliği değildir?",
+      "choices": ["Yağışın yıl boyu dengeli olması", "Rejim değişkenliğinin sınırlı olması", "Akımın yazın belirgin düşmesi", "Kısa ve küçük havzalar", "Akımda ani yükselme düşme olmaması"],
+      "correct": "Akımın yazın belirgin düşmesi",
+      "explanation": "Karadeniz'de yaz kuraklığı olmadığı için akım düşüşü belirgin değildir."
+    },
+    {
+      "id": 69,
+      "question": "Aşağıdakilerden hangisi Orta Anadolu’nun kapalı havzaları arasında değildir?",
+      "choices": ["Tuz Gölü", "Konya Havzası", "Akşehir", "Arpaçay", "Eber"],
+      "correct": "Arpaçay",
+      "explanation": "Arpaçay kapalı havza değil sınır akarsuyudur."
+    },
+    {
+      "id": 70,
+      "question": "Aşağıdaki akarsuların hangisi Türkiye’nin en büyük açık havza sistemlerinden birine bağlıdır?",
+      "choices": ["Kızılırmak", "Akçay", "Simav", "Gediz", "Ergene"],
+      "correct": "Kızılırmak",
+      "explanation": "Kızılırmak Türkiye’nin en geniş havzalarından birine sahiptir."
+    },
+    {
+      "id": 71,
+      "question": "Aşağıdakilerden hangisi denize ulaşan bir akarsu değildir?",
+      "choices": ["Sakarya", "Asi", "Kızılırmak", "Susurluk", "Van Gölü çevresi akarsuları"],
+      "correct": "Van Gölü çevresi akarsuları",
+      "explanation": "Van Gölü kapalı havzadır; akarsular denize ulaşmaz."
+    },
+    {
+      "id": 72,
+      "question": "Aşağıdaki akarsulardan hangisi Manavgat Nehri’nin drenaj sistemine bağlı değildir?",
+      "choices": ["Köprü", "Aksu", "Manavgat", "Meram kaynakları", "Dim Çayı"],
+      "correct": "Meram kaynakları",
+      "explanation": "Meram kaynakları Konya çevresindedir ve Manavgat ile ilişkili değildir."
+    },
+    {
+      "id": 73,
+      "question": "Türkiye’de en yüksek akarsu yoğunluğunun görüldüğü alan aşağıdakilerden hangisidir?",
+      "choices": ["İç Anadolu", "Trakya", "Doğu Karadeniz", "Güneydoğu Anadolu", "Ege"],
+      "correct": "Doğu Karadeniz",
+      "explanation": "Yoğun yağış ve dik eğim nedeniyle akarsu yoğunluğu en fazladır."
+    },
+    {
+      "id": 74,
+      "question": "Aşağıdaki akarsulardan hangisi kaynağını Doğu Anadolu’dan alıp Karadeniz’e ulaşır?",
+      "choices": ["Filyos", "Gediz", "Büyük Menderes", "Manavgat", "Aras"],
+      "correct": "Filyos",
+      "explanation": "Filyos Anadolu’nun kuzeyine doğru akar ve Karadeniz’e ulaşır."
+    },
+    {
+      "id": 75,
+      "question": "Aşağıdaki akarsulardan hangisi delta oluşturma kapasitesi en düşük akarsulardandır?",
+      "choices": ["Bartın Çayı", "Kızılırmak", "Yeşilırmak", "Gediz", "Büyük Menderes"],
+      "correct": "Bartın Çayı",
+      "explanation": "Bartın kısa ve eğimli olduğu için delta oluşturma kapasitesi düşüktür."
+    },
+
+    {
+      "id": 76,
+      "question": "Aşağıdaki akarsulardan hangisi Doğu Anadolu’nun sert kış koşullarından en çok etkilenen akarsular arasındadır?",
+      "choices": ["Aras", "Bakırçay", "Susurluk", "Gediz", "Aksu"],
+      "correct": "Aras",
+      "explanation": "Aras donma ve kar örtüsü nedeniyle kış koşullarından ciddi etkilenir."
+    },
+    {
+      "id": 77,
+      "question": "Aşağıdaki akarsulardan hangisi Türkiye’nin güney kıyılarında yer alır?",
+      "choices": ["Dalaman Çayı", "Ergene", "Porsuk", "Karasu", "Filyos"],
+      "correct": "Dalaman Çayı",
+      "explanation": "Dalaman Çayı Güneybatı Anadolu’da Akdeniz’e ulaşır."
+    },
+    {
+      "id": 78,
+      "question": "Aşağıdaki akarsulardan hangisi Güneydoğu Toroslar’dan kaynaklanır?",
+      "choices": ["Ceyhan", "Ergene", "Sakarya", "Gediz", "Susurluk"],
+      "correct": "Ceyhan",
+      "explanation": "Ceyhan Nehri’nin kaynağı Güneydoğu Toroslar’dadır."
+    },
+    {
+      "id": 79,
+      "question": "Aşağıdaki akarsulardan hangisi Trakya’da sınır oluşturan bir akarsudur?",
+      "choices": ["Meriç", "Manavgat", "Aksu", "Ceyhan", "Göksu"],
+      "correct": "Meriç",
+      "explanation": "Meriç Nehri Türkiye–Yunanistan sınırını belirler."
+    },
+    {
+      "id": 80,
+      "question": "Aşağıdakilerden hangisi doğal olarak su toplama havzasını daraltan bir faktör değildir?",
+      "choices": ["Yüksek dağ sıraları", "Çöküntü ovaları", "Kıyıya paralel dağlar", "Kapalı havza oluşumu", "Derin vadiler"],
+      "correct": "Çöküntü ovaları",
+      "explanation": "Çöküntü ovaları havzayı daraltmak yerine genişletebilir."
+    },
+    {
+      "id": 81,
+      "question": "Aşağıdaki akarsulardan hangisi Türkiye’den doğup başka bir ülkeye akan akarsular arasında yer almaz?",
+      "choices": ["Çoruh", "Fırat", "Dicle", "Aras", "Gediz"],
+      "correct": "Gediz",
+      "explanation": "Gediz tamamen Türkiye sınırları içinde kalır."
+    },
+    {
+      "id": 82,
+      "question": "Aşağıdaki akarsulardan hangisi Karadeniz’de delta oluşturan akarsular arasında bulunur?",
+      "choices": ["Yeşilırmak", "Göksu", "Manavgat", "Devrez", "Akçay"],
+      "correct": "Yeşilırmak",
+      "explanation": "Yeşilırmak Karadeniz kıyısında geniş bir delta oluşturur."
+    },
+    {
+      "id": 83,
+      "question": "Aşağıdaki akarsulardan hangisi Marmara Bölgesi’nin iç kısmında yer alır?",
+      "choices": ["Porsuk", "Afrin", "Kelkit", "Filyos", "Kura"],
+      "correct": "Porsuk",
+      "explanation": "Porsuk Çayı Marmara Bölgesi içerisinde bulunur."
+    },
+    {
+      "id": 84,
+      "question": "Aşağıdaki akarsuların hangisi Türkiye’nin en geniş havzalarından birine bağlıdır?",
+      "choices": ["Kızılırmak", "Simav", "Söğütlü", "Dim Çayı", "Peri"],
+      "correct": "Kızılırmak",
+      "explanation": "Kızılırmak Türkiye’deki en büyük açık havzalardan birine aittir."
+    },
+    {
+      "id": 85,
+      "question": "Aşağıdaki akarsulardan hangisi Toros Dağları'nın batı kesimlerinden kaynaklanır?",
+      "choices": ["Dalaman Çayı", "Aras", "Zamantı", "Filyos", "Delice"],
+      "correct": "Dalaman Çayı",
+      "explanation": "Dalaman Çayı Batı Toroslar’dan doğar ve Akdeniz’e ulaşır."
+    },
+    {
+      "id": 86,
+      "question": "Aşağıdaki akarsulardan hangisi Güneydoğu Anadolu’da taşkın riski en yüksek akarsular arasında yer alır?",
+      "choices": ["Batman", "Kelkit", "Bakırçay", "Manavgat", "Ergene"],
+      "correct": "Batman",
+      "explanation": "Batman Çayı yağış ve kar erimelerine bağlı taşkın yaşayabilir."
+    },
+    {
+      "id": 87,
+      "question": "Aşağıdakilerden hangisi Akdeniz kıyı akarsularının genel bir özelliğidir?",
+      "choices": ["Yıl boyunca sabit akım", "Yazları belirgin debi düşüşü", "Tüm yıl kar erimesine bağlı akım", "Kışın don olayları fazladır", "Geniş deltalar oluşturur"],
+      "correct": "Yazları belirgin debi düşüşü",
+      "explanation": "Akdeniz ikliminin yaz kuraklığı akarsu debilerini ciddi düşürür."
+    },
+    {
+      "id": 88,
+      "question": "Aşağıdaki akarsulardan hangisi Türkiye’nin kuzeybatısında yer alan akarsulardan biridir?",
+      "choices": ["Susurluk", "Ceyhan", "Aras", "Batman", "Köprü"],
+      "correct": "Susurluk",
+      "explanation": "Susurluk Çayı Marmara Bölgesi'nin kuzeybatısında yer alır."
+    },
+    {
+      "id": 89,
+      "question": "Aşağıdakilerden hangisi kapalı havzanın hidrografik bir sonucu olarak ortaya çıkar?",
+      "choices": ["Delta oluşumu", "Göl seviyesinin yağışa göre değişmesi", "Akarsuyun denize ulaşması", "Akarsu kaynak sayısının artması", "Nehir ağızlarının genişlemesi"],
+      "correct": "Göl seviyesinin yağışa göre değişmesi",
+      "explanation": "Kapalı havzalarda su dışarı akamadığı için seviye yağışla değişir."
+    },
+    {
+      "id": 90,
+      "question": "Aşağıdaki akarsulardan hangisi Orta Karadeniz kıyılarında denize dökülür?",
+      "choices": ["Yeşilırmak", "Asi", "Manavgat", "Ceyhan", "Göksu"],
+      "correct": "Yeşilırmak",
+      "explanation": "Yeşilırmak Samsun çevresinde Karadeniz’e dökülür."
+    },
+    {
+      "id": 91,
+      "question": "Aşağıdakilerden hangisi Doğu Anadolu’da havza genişliğini sınırlayan bir faktördür?",
+      "choices": ["Alçak ovalar", "Sığ göller", "Dağlık engebeli arazi", "Düşük eğim", "Kıyı etkisi"],
+      "correct": "Dağlık engebeli arazi",
+      "explanation": "Bölgenin dağlık yapısı havzaları daraltır."
+    },
+    {
+      "id": 92,
+      "question": "Aşağıdaki akarsulardan hangisi Türkiye’nin kuzey kıyılarında kısa boylu ve yüksek akış hızına sahip akarsulardan biridir?",
+      "choices": ["Bartın Çayı", "Porsuk", "Ergene", "Dalaman", "Bakırçay"],
+      "correct": "Bartın Çayı",
+      "explanation": "Bartın Çayı kısa, eğimli ve hızlı akışlı bir akarsudur."
+    },
+    {
+      "id": 93,
+      "question": "Aşağıdaki akarsulardan hangisi Türkiye’nin güneydoğusundan doğup Suriye topraklarına doğru akmaya devam eder?",
+      "choices": ["Dicle", "Kelkit", "Aras", "Gediz", "Akçay"],
+      "correct": "Dicle",
+      "explanation": "Dicle Nehri Türkiye’den çıkarak Irak’a ve Suriye’ye yönelir."
+    },
+    {
+      "id": 94,
+      "question": "Aşağıdaki akarsulardan hangisi Toroslar’ın doğu kesiminde kaynaklanır?",
+      "choices": ["Göksu", "Zamantı", "Çoruh", "Ergene", "Kelkit"],
+      "correct": "Zamantı",
+      "explanation": "Zamantı Çayı Torosların doğusunda doğar ve Seyhan’ı besler."
+    },
+    {
+      "id": 95,
+      "question": "Aşağıdaki akarsulardan hangisinin beslenme rejimi büyük ölçüde kar erimelerine bağlıdır?",
+      "choices": ["Fırat", "Ergene", "Bakırçay", "Dalaman", "Büyük Menderes"],
+      "correct": "Fırat",
+      "explanation": "Fırat’ın debi düzenlemesinde kar erimeleri belirleyici faktördür."
+    },
+    {
+      "id": 96,
+      "question": "Aşağıdaki akarsulardan hangisi Kuzeydoğu Anadolu’da en yüksek eğimli vadilerde akar?",
+      "choices": ["Çoruh", "Kelkit", "Ceyhan", "Susurluk", "Manavgat"],
+      "correct": "Çoruh",
+      "explanation": "Çoruh Türkiye’nin en dik eğimli vadilerinden birine sahiptir."
+    },
+    {
+      "id": 97,
+      "question": "Aşağıdaki akarsulardan hangisi Türkiye sınırları içinde önemli bir delta oluşturmaz?",
+      "choices": ["Bartın Çayı", "Yeşilırmak", "Kızılırmak", "Gediz", "Büyük Menderes"],
+      "correct": "Bartın Çayı",
+      "explanation": "Kısa ve eğimli olduğu için delta oluşturmaz."
+    },
+    {
+      "id": 98,
+      "question": "Aşağıdaki akarsulardan hangisi Batı Anadolu’da drenaj yoğunluğunun en düşük olduğu alanlarda bulunur?",
+      "choices": ["Bakırçay", "Ergene", "Aras", "Peri", "Kelkit"],
+      "correct": "Bakırçay",
+      "explanation": "Bakırçay çevresi Ege’de drenaj yoğunluğu düşük alanlardandır."
+    },
+    {
+      "id": 99,
+      "question": "Aşağıdaki akarsuların hangisi Doğu Karadeniz’den doğup kısa mesafede denize ulaşmasıyla bilinir?",
+      "choices": ["Filyos", "Manavgat", "Bartın", "Arpaçay", "Sakarya"],
+      "correct": "Bartın",
+      "explanation": "Bartın Çayı kısa yolculukla Karadeniz’e ulaşır."
+    },
+    {
+      "id": 100,
+      "question": "Aşağıdakilerden hangisi Türkiye’deki açık havza sistemlerinin bir özelliğidir?",
+      "choices": ["Su denize ulaşmaz", "Ağızlarda tuzlanma artar", "Uluslararası drenaj bağlantısı vardır", "Kapalı göller fazladır", "Akarsu boyu kısadır"],
+      "correct": "Uluslararası drenaj bağlantısı vardır",
+      "explanation": "Açık havzalar denizlere ulaşır ve uluslararası bağlantılar kurar."
+    }
+  ]
+}

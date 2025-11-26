@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coğrafya Oyunu • Anasayfa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<!-- SADECE ANASAYFADA ORTALAMA İÇİN -->
+<body class="home-page">
+
+<div class="home-container">
+    <div class="user-box">
+        <h1>Coğrafya Oyunu</h1>
+        <p>Devam etmek için kullanıcı adını gir.</p>
+
+        <input id="usernameInput" type="text" placeholder="Kullanıcı Adı">
+        <button id="startBtn" class="disabled">Giriş Yap</button>
+    </div>
+
+    <div class="categories">
+        <h2>Kategoriler</h2>
+
+        <!-- Giriş yapılmadan TIKLANAMAZ -->
+        <a href="akarsular.html" class="category-card disabled-cat" id="cat-akarsular">
+            Akarsular
+        </a>
+
+        <div class="category-card coming-soon">Ülkeler (Yakında)</div>
+        <div class="category-card coming-soon">Nüfus (Yakında)</div>
+        <div class="category-card coming-soon">Harita Okuma (Yakında)</div>
+    </div>
+</div>
+
+
+<script src="script.js"></script>
+<footer class="site-footer">
+    <p>© 2025 Coğrafya Oyunu • GeoRehber</p>
+</footer>
+
+</body>
+</html>
